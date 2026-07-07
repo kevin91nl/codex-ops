@@ -13,16 +13,22 @@ Home for reusable Codex automations, skills, helper scripts, checklists, and sha
 Clone or move this repo wherever you keep personal Codex assets:
 
 ```bash
-git clone <repo-url> codex-ops
-```
-
-For local use:
-
-```bash
+git clone https://github.com/kevin91nl/codex-ops.git
 cd codex-ops
 ```
 
-To reuse an automation, open the automation folder, copy the prompt into a Codex automation, and set the schedule in Codex. Keep the prompt in Git as the source of truth.
+To update later:
+
+```bash
+git pull
+```
+
+To reuse an automation:
+
+1. Open the automation folder.
+2. Copy `prompt.md` into a Codex automation.
+3. Pick a schedule in Codex.
+4. Keep the prompt in Git as the source of truth.
 
 ## Current Automation
 
