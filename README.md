@@ -10,7 +10,13 @@ Home for reusable Codex automations, skills, helper scripts, checklists, and sha
 
 ## Install
 
-Clone or move this repo wherever you keep personal Codex assets:
+You can ask Codex to install this repo for you:
+
+```text
+Install https://github.com/kevin91nl/codex-ops.git into my local Codex tools directory. Follow the repository AGENTS.md. If it already exists, update it with git pull --ff-only and stop if there are local changes.
+```
+
+Or clone it manually wherever you keep personal Codex assets:
 
 ```bash
 git clone https://github.com/kevin91nl/codex-ops.git
