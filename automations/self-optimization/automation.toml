@@ -1,0 +1,14 @@
+id = "codex-self-optimization"
+name = "Codex Self-Optimization Review"
+status = "draft"
+schedule = "set in Codex"
+source_prompt = "prompt.md"
+
+[purpose]
+summary = "Find recurring wasted effort across recent Codex sessions and implement at most one high-leverage reusable improvement."
+
+[guardrails]
+max_changes = 1
+prefer_global_guidance = true
+require_past_24h_sessions_first = true
+avoid_ceremony = true
