@@ -16,10 +16,10 @@ Clone or move this repo wherever you keep personal Codex assets:
 git clone <repo-url> codex-ops
 ```
 
-For local use from this generated copy:
+For local use:
 
 ```bash
-cd /Users/kevin/Documents/Codex/2026-07-07/m/outputs/codex-ops
+cd codex-ops
 ```
 
 To reuse an automation, open the automation folder, copy the prompt into a Codex automation, and set the schedule in Codex. Keep the prompt in Git as the source of truth.

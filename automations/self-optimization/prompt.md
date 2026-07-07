@@ -8,9 +8,9 @@ Review the most recent Codex session history, the current workspace guidance, an
 - repeated planning mistakes,
 - unnecessary context expansion or token burn,
 - work that should have become a reusable skill, helper, checklist, or rule,
-- slow execution, low success rate, long YouTrack issue resolution time, avoidable retries, avoidable handoffs, and repeated user interventions.
+- slow execution, low success rate, long issue-tracker resolution time, avoidable retries, avoidable handoffs, and repeated user interventions.
 
-When identifying recurring patterns, inspect the available Codex session history rather than only the current workspace. In particular, review recent session transcripts stored under `~/.codex/sessions/` (or the directory pointed to by `CODEX_HOME`, if set) to detect repeated failures, redundant rereads, abandoned approaches, and recurring planning mistakes. Look for patterns across sessions rather than isolated incidents. Also review every Codex session from the past 24 hours, even if it overlaps with earlier self-opt runs, because fresh regressions and missed improvements often show up there first.
+When identifying recurring patterns, inspect the available Codex session history rather than only the current workspace. In particular, review recent session transcripts stored under `~/.codex/sessions/` (or the directory pointed to by `CODEX_HOME`, if set) to detect repeated failures, redundant rereads, abandoned approaches, and recurring planning mistakes. Look for patterns across sessions rather than isolated one-off events. Also review every Codex session from the past 24 hours, even if it overlaps with earlier self-opt runs, because fresh regressions and missed improvements often show up there first.
 
 Search the web for current best practices that reduce Codex token usage, context burn, unnecessary agent prompt expansion, and repeated work. Also search for current best practices for self-improving or reflective coding agents, especially:
 
