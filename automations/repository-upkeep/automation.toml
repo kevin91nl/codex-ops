@@ -1,0 +1,14 @@
+id = "codex-ops-repository-upkeep"
+name = "Codex Ops Repository Upkeep"
+status = "draft"
+schedule = "set in Codex"
+source_prompt = "prompt.md"
+
+[purpose]
+summary = "Keep a local codex-ops clone up to date and report when local changes block a fast-forward update."
+
+[guardrails]
+allow_fast_forward_pull = true
+stop_on_local_changes = true
+no_force_push = true
+no_destructive_git = true

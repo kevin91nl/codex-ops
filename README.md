@@ -20,7 +20,7 @@ cd codex-ops
 To update later:
 
 ```bash
-git pull
+git pull --ff-only
 ```
 
 To reuse an automation:
@@ -30,9 +30,11 @@ To reuse an automation:
 3. Pick a schedule in Codex.
 4. Keep the prompt in Git as the source of truth.
 
-## Current Automation
+## Automations
 
 `automations/self-optimization/` contains the Codex self-optimization review automation. Its purpose is to inspect recent Codex session history, workspace guidance, reusable artifacts, and current research-backed practices, then make at most one high-leverage improvement that reduces repeated work, token burn, avoidable retries, or user intervention.
+
+`automations/repository-upkeep/` contains a small upkeep automation. Its purpose is to let Codex keep a local clone of this repository up to date with `git pull --ff-only`, while stopping if local changes need human review.
 
 Files:
 
